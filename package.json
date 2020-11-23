@@ -1,0 +1,36 @@
+{
+  "name": "taxikolesa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "author": "SoulLution",
+  "license": "ISC",
+  "scripts": {
+    "clean": "rm dist/bundle.js",
+    "dev": "webpack-dev-server",
+    "build": "webpack -p --mode production"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "glob": "^7.1.6",
+    "postcss-loader": "^3.0.0",
+    "tailwindcss": "^1.4.6",
+    "v-mask": "^2.2.1",
+    "vue": "^2.6.11",
+    "vue2-touch-events": "^2.3.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.3",
+    "@babel/preset-env": "^7.8.3",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.4.2",
+    "node-sass": "^4.14.1",
+    "sass-loader": "^8.0.2",
+    "vue-loader": "^15.8.3",
+    "vue-template-compiler": "^2.6.11",
+    "webpack": "^4.42.0",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.3"
+  }
+}
